@@ -8,5 +8,11 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "start": "bun run src/app/main.ts"
+  },
+  "dependencies": {
+    "@aztec/aztec": "^2.0.3"
   }
 }
